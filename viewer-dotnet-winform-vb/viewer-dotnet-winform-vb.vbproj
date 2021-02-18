@@ -181,6 +181,8 @@
       <DependentUpon>PdfViewerLocalization.vb</DependentUpon>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
     </EmbeddedResource>
+    <EmbeddedResource Include="Resources\ceTe.DynamicPDF.Viewer.Localization.ar-SA.resx" />
+    <EmbeddedResource Include="Resources\ceTe.DynamicPDF.Viewer.Localization.en-US.resx" />
     <EmbeddedResource Include="SimplePdfViewer.resx">
       <DependentUpon>SimplePdfViewer.vb</DependentUpon>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>

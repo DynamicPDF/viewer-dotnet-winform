@@ -1,0 +1,568 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ToolStrip_OpenFile" xml:space="preserve">
+    <value>فتح ملف</value>
+    <comment>Used for Tool strip  open file.</comment>
+  </data>
+  <data name="ToolStrip_FirstPage" xml:space="preserve">
+    <value>الصفحة الأولى</value>
+    <comment>Used for Tool strip first page button.</comment>
+  </data>
+  <data name="ToolStrip_PreviousPage" xml:space="preserve">
+    <value>الصفحة السابقة</value>
+    <comment>Used for Tool strip previous page button.</comment>
+  </data>
+  <data name="ToolStrip_NextPage" xml:space="preserve">
+    <value>الصفحة التالية</value>
+    <comment>Used for Tool strip next page button.</comment>
+  </data>
+  <data name="ToolStrip_LastPage" xml:space="preserve">
+    <value>آخر صفحة</value>
+    <comment>Used for Tool strip last page button.</comment>
+  </data>
+  <data name="ToolStrip_PreviousView" xml:space="preserve">
+    <value>نظرة سابقة</value>
+    <comment>Used for Tool strip previous view button.</comment>
+  </data>
+  <data name="ToolStrip_NextView" xml:space="preserve">
+    <value>عرض التالي</value>
+    <comment>Used for Tool strip next view button.</comment>
+  </data>
+  <data name="ToolStrip_PanTool" xml:space="preserve">
+    <value>أداة عموم</value>
+    <comment>Used for Tool strip hand tool button.</comment>
+  </data>
+  <data name="ToolStrip_TextSelectTool" xml:space="preserve">
+    <value>أداة تحديد النص</value>
+    <comment>Used for Tool strip text tool button.</comment>
+  </data>
+  <data name="ToolStrip_MarqueeZoom" xml:space="preserve">
+    <value>التكبير سرادق</value>
+    <comment>Used for Tool strip marquee zoom button.</comment>
+  </data>
+  <data name="ToolStrip_ZoomLevels" xml:space="preserve">
+    <value>مستويات التكبير / التصغير</value>
+    <comment>Used for Tool strip zoom levels.</comment>
+  </data>
+  <data name="ToolStrip_ZoomIn" xml:space="preserve">
+    <value>تكبير</value>
+    <comment>Used for Tool strip zoom in button.</comment>
+  </data>
+  <data name="ToolStrip_ZoomOut" xml:space="preserve">
+    <value>تصغير</value>
+    <comment>Used for Tool strip zoom out button.</comment>
+  </data>
+  <data name="ToolStrip_RotateClockwise" xml:space="preserve">
+    <value>تدوير في اتجاه عقارب الساعة</value>
+    <comment>Used for Tool strip rotate clockwise button.</comment>
+  </data>
+  <data name="ToolStrip_RotateCounterClockwise" xml:space="preserve">
+    <value>تدوير عكس اتجاه عقارب الساعة</value>
+    <comment>Used for Tool strip rotate counter clockwise button.</comment>
+  </data>
+  <data name="ToolStrip_SinglePage" xml:space="preserve">
+    <value>وضع صفحة واحدة</value>
+    <comment>Used for Tool strip single page mode button.</comment>
+  </data>
+  <data name="ToolStrip_SinglePageContinuous" xml:space="preserve">
+    <value>الوضع المستمر للصفحة الواحدة</value>
+    <comment>Used for Tool strip single page continuous mode button.</comment>
+  </data>
+  <data name="ToolStrip_TwoPage" xml:space="preserve">
+    <value>اثنين من وضع الصفحة</value>
+    <comment>Used for Tool strip two page mode button.</comment>
+  </data>
+  <data name="ToolStrip_FindText" xml:space="preserve">
+    <value>بحث عن نص</value>
+    <comment>Used for Tool strip find button.</comment>
+  </data>
+  <data name="ContextMenu_FitWidth" xml:space="preserve">
+    <value>العرض المناسب</value>
+    <comment>Used for Context menu fit width.</comment>
+  </data>
+  <data name="ContextMenu_ActualPage" xml:space="preserve">
+    <value>الصفحة الفعلية</value>
+    <comment>Used for Context menu actual page .</comment>
+  </data>
+  <data name="ContextMenu_ShowCoverPage" xml:space="preserve">
+    <value>عرض صفحة الغلاف</value>
+    <comment>Used for Context menu cover page.</comment>
+  </data>
+  <data name="ContextMenuText_Copy" xml:space="preserve">
+    <value>نسخ</value>
+    <comment>Used for Context menu for text copy.</comment>
+  </data>
+  <data name="ContextMenuText_SelectAll" xml:space="preserve">
+    <value>اختر الكل</value>
+    <comment>Used for Context menu for text select all.</comment>
+  </data>
+  <data name="ContextMenuText_DeselectAll" xml:space="preserve">
+    <value>الغاء تحديد الكل</value>
+    <comment>Used for Context menu for text de select all.</comment>
+  </data>
+  <data name="PrintDialog_CurrentPage" xml:space="preserve">
+    <value>الصفحه الحاليه</value>
+    <comment>Used for Print dialogue current page label.</comment>
+  </data>
+  <data name="PrintDialog_CurrentView" xml:space="preserve">
+    <value>العرض الحالي</value>
+    <comment>Used for Print dialogue current view label.</comment>
+  </data>
+  <data name="PrintDialog_PrinterName" xml:space="preserve">
+    <value>اسم</value>
+    <comment>Used for Print dialog printer name.</comment>
+  </data>
+  <data name="PrintDialog_Properties" xml:space="preserve">
+    <value>الخصائص</value>
+    <comment>Used for Print dialog properties.</comment>
+  </data>
+  <data name="PrintDialog_Fit" xml:space="preserve">
+    <value>لائق بدنيا</value>
+    <comment>Used for Print dialogue fit.</comment>
+  </data>
+  <data name="PrintDialog_Message_InvalidPageRange" xml:space="preserve">
+    <value>نطاق الصفحة غير صالح</value>
+    <comment>Used for Print dialog message.</comment>
+  </data>
+  <data name="PrintDialog_MoreOptions" xml:space="preserve">
+    <value>المزيد من الخيارات</value>
+    <comment>Used for More options in print dialog.</comment>
+  </data>
+  <data name="PrintDialog_Pages" xml:space="preserve">
+    <value>صفحات</value>
+    <comment>Used for Print dialog pages.</comment>
+  </data>
+  <data name="PrintDialog_Preview" xml:space="preserve">
+    <value>معاينة</value>
+    <comment>Used for Print dialog preview.</comment>
+  </data>
+  <data name="PrintDialog_PrintRange" xml:space="preserve">
+    <value>حد الطباعة</value>
+    <comment>Used for Print dialog print range.</comment>
+  </data>
+  <data name="PrintDialog_ReversePages" xml:space="preserve">
+    <value>صفحات معكوسة</value>
+    <comment>Used for Print dialog reverse pages.</comment>
+  </data>
+  <data name="PrintDialog_ShrinkOversizedPages" xml:space="preserve">
+    <value>تقليص صفحات المتضخم</value>
+    <comment>Used for Print dialog shrink oversize pages.</comment>
+  </data>
+  <data name="PrintDialog_Subset" xml:space="preserve">
+    <value>فرعية</value>
+    <comment>Used for Print dialog subset.</comment>
+  </data>
+  <data name="PrintDialog_Size" xml:space="preserve">
+    <value>بحجم</value>
+    <comment>Used for Print dialog size.</comment>
+  </data>
+  <data name="ToolStrip_Print" xml:space="preserve">
+    <value>طباعة</value>
+    <comment>Used for Tool strip print button.</comment>
+  </data>
+  <data name="ToolStrip_TwoPageContinuous" xml:space="preserve">
+    <value>اثنين من وضع مستمر الصفحة</value>
+    <comment>Used for Tool strip two page continuous mode button.</comment>
+  </data>
+  <data name="ContextMenu_ActualSize" xml:space="preserve">
+    <value>الحجم الأصلي</value>
+    <comment>Used for Context menu actual size.</comment>
+  </data>
+  <data name="ContextMenu_CoverPage" xml:space="preserve">
+    <value>عرض صفحة الغلاف في عرض الصفحة</value>
+    <comment>Used for Context menu show cover page in a two page view.</comment>
+  </data>
+  <data name="ContextMenu_FindText" xml:space="preserve">
+    <value>بحث عن نص</value>
+    <comment>Used for Context menu find text.</comment>
+  </data>
+  <data name="ContextMenu_FitPage" xml:space="preserve">
+    <value>ملئ الصفحة</value>
+    <comment>Used for Context menu fit page.</comment>
+  </data>
+  <data name="ContextMenu_HandTool" xml:space="preserve">
+    <value>اداة يدوية</value>
+    <comment>Used for Context menu hand tool.</comment>
+  </data>
+  <data name="ContextMenu_MarqueeZoom" xml:space="preserve">
+    <value>التكبير سرادق</value>
+    <comment>Used for Context menu marquee zoom.</comment>
+  </data>
+  <data name="ContextMenu_Print" xml:space="preserve">
+    <value>طباعة</value>
+    <comment>Used for Context menu print.</comment>
+  </data>
+  <data name="ContextMenu_SelectTool" xml:space="preserve">
+    <value>اختر اداة</value>
+    <comment>Used for Context menu select tool.</comment>
+  </data>
+  <data name="ContextMenu_ZoomIn" xml:space="preserve">
+    <value>تكبير</value>
+    <comment>Used for Context menu zoom in.</comment>
+  </data>
+  <data name="ContextMenu_ZoomOut" xml:space="preserve">
+    <value>تصغير</value>
+    <comment>Used for Context menu zoom out.</comment>
+  </data>
+  <data name="NavigationPanel_Bookmarks_Tooltip" xml:space="preserve">
+    <value>إرسال</value>
+    <comment>Used for Navigation panel bookmarks tooltip.</comment>
+  </data>
+  <data name="NavigationPanel_Heading_Thumbnails" xml:space="preserve">
+    <value>الصور المصغرة</value>
+    <comment>Used for Navigation panel thumbnails heading.</comment>
+  </data>
+  <data name="PrintDialogPrintRangeSubset_AllPagesInRange" xml:space="preserve">
+    <value>كل الصفحات في النطاق</value>
+    <comment>Used for Print dialog range subset all pages only.</comment>
+  </data>
+  <data name="PrintDialogPrintRangeSubset_EvenPagesOnly" xml:space="preserve">
+    <value>حتى صفحات فقط</value>
+    <comment>Used for  Print dialog range subset even pages only.</comment>
+  </data>
+  <data name="PrintDialogPrintRangeSubset_OddPagesOnly" xml:space="preserve">
+    <value>الصفحات الفردية فقط</value>
+    <comment>Used for Print Dialogue range subset odd pages only.</comment>
+  </data>
+  <data name="PrintDialog_ActualSize" xml:space="preserve">
+    <value>الحجم الأصلي</value>
+    <comment>Used for Print dialog actual size.</comment>
+  </data>
+  <data name="PrintDialog_All" xml:space="preserve">
+    <value>الكل</value>
+    <comment>Used for Print dialog all.</comment>
+  </data>
+  <data name="PrintDialog_Annotation" xml:space="preserve">
+    <value>حاشية</value>
+    <comment>Used for Print dialog annotation.</comment>
+  </data>
+  <data name="PrintDialog_Auto" xml:space="preserve">
+    <value>تلقاءي</value>
+    <comment>Used for Print dialog auto view.</comment>
+  </data>
+  <data name="PrintDialog_Cancel" xml:space="preserve">
+    <value>إلغاء</value>
+    <comment>Used for Print dialog cancel.</comment>
+  </data>
+  <data name="PrintDialog_Collate" xml:space="preserve">
+    <value>جمع</value>
+    <comment>Used for Print dialog  collate.</comment>
+  </data>
+  <data name="PrintDialog_Copies" xml:space="preserve">
+    <value>نسخ</value>
+    <comment>Used for Print dialog copies.</comment>
+  </data>
+  <data name="PrintDialog_Landscape" xml:space="preserve">
+    <value>المناظر الطبيعيه</value>
+    <comment>Used for Print dialog landscape view.</comment>
+  </data>
+  <data name="PrintDialog_Message_NoPrinter" xml:space="preserve">
+    <value>لم يتم تثبيت طابعة. لتنفيذ مهام الطباعة ذات الصلة، تحتاج إلى تثبيت الطابعة أولا.</value>
+    <comment>Used for Print dialog when no printer is available for printing.</comment>
+  </data>
+  <data name="PrintDialog_OK" xml:space="preserve">
+    <value>حسنا</value>
+    <comment>Used for Print dialog ok.</comment>
+  </data>
+  <data name="PrintDialog_Orientation" xml:space="preserve">
+    <value>اتجاه</value>
+    <comment>Used for Print dialog  orientation.</comment>
+  </data>
+  <data name="PrintDialog_Portrait" xml:space="preserve">
+    <value>صورة</value>
+    <comment>Used for Print dialog portrait view.</comment>
+  </data>
+  <data name="PrintDialog_Printer" xml:space="preserve">
+    <value>طابعة</value>
+    <comment>Used for Print dialog printer.</comment>
+  </data>
+  <data name="PrintDialog_PrintMessage" xml:space="preserve">
+    <value>نطاق الصفحة غير صالح</value>
+    <comment>Used for Print dialog message box.</comment>
+  </data>
+  <data name="ToolStrip_MoreOptions" xml:space="preserve">
+    <value>المزيد من الخيارات</value>
+    <comment>Used for Tool strip more options.</comment>
+  </data>
+  <data name="BookmarksMenu_GoToBookmark" xml:space="preserve">
+    <value>الذهاب إلى المرجعية</value>
+    <comment>Used for Bookmarks menu go to Bookmark.</comment>
+  </data>
+  <data name="BookmarksTextSizeMenu_Large" xml:space="preserve">
+    <value>كبير</value>
+    <comment>Used for Bookmarks text size menu large.</comment>
+  </data>
+  <data name="BookmarksTextSizeMenu_Medium" xml:space="preserve">
+    <value>متوسط</value>
+    <comment>Used for Bookmarks text size menu medium.</comment>
+  </data>
+  <data name="BookmarksTextSizeMenu_Small" xml:space="preserve">
+    <value>صغير</value>
+    <comment>Used for Bookmarks text size menu small.</comment>
+  </data>
+  <data name="BookmarksMenu_TextSize" xml:space="preserve">
+    <value>حجم الخط</value>
+    <comment>Used for Bookmarks text size .</comment>
+  </data>
+  <data name="NavigationPanel_Heading_Bookmarks" xml:space="preserve">
+    <value>إرسال</value>
+    <comment>Used for Navigation panel bookmarks heading.</comment>
+  </data>
+  <data name="NavigationPanel_Thumbnails_Tooltip" xml:space="preserve">
+    <value>الصور المصغرة</value>
+    <comment>Used for Navigation panel thumbnails tool tip.</comment>
+  </data>
+  <data name="Thumbnails_EnlargePageThumbnails" xml:space="preserve">
+    <value>تكبير الصفحة ثومبنايلز</value>
+    <comment>Used for Thumbnails enlarge page thumbnails.</comment>
+  </data>
+  <data name="Thumbnails_ReducePageThumbnails" xml:space="preserve">
+    <value>تقليل الصور المصغرة للصفحة</value>
+    <comment>Used for Thumbnails reduce page thumbnails.</comment>
+  </data>
+  <data name="Thumbnails_Minimize" xml:space="preserve">
+    <value>خفض</value>
+    <comment>Used for Thumbnails minimize.</comment>
+  </data>
+  <data name="ToolStrip_ActualSize" xml:space="preserve">
+    <value>الحجم الأصلي</value>
+    <comment>Used for Tool strip actual size.</comment>
+  </data>
+  <data name="ToolStrip_FitPage" xml:space="preserve">
+    <value>ملئ الصفحة</value>
+    <comment>Used for Tool strip fit page.</comment>
+  </data>
+  <data name="ToolStrip_FitWidth" xml:space="preserve">
+    <value>العرض المناسب</value>
+    <comment>Used for Tool strip fit width.</comment>
+  </data>
+  <data name="ToolStrip_SelectZoomValue" xml:space="preserve">
+    <value>حدد قيمة التكبير / التصغير</value>
+    <comment>Used for Tool strip zoom value.</comment>
+  </data>
+  <data name="ToolStrip_FitHeight" xml:space="preserve">
+    <value>ارتفاع ملائم</value>
+    <comment>Used for Tool strip fit height.</comment>
+  </data>
+  <data name="ContextMenu_NextView" xml:space="preserve">
+    <value>عرض التالي</value>
+    <comment>Used for Context menu next view.</comment>
+  </data>
+  <data name="ContextMenu_PreviousView" xml:space="preserve">
+    <value>نظرة سابقة</value>
+    <comment>Used for Context menu previous view.</comment>
+  </data>
+  <data name="ContextMenu_RotateClockwise" xml:space="preserve">
+    <value>تدوير في اتجاه عقارب الساعة</value>
+    <comment>Used for Context menu rotate clockwise.</comment>
+  </data>
+  <data name="MessageBox_OK" xml:space="preserve">
+    <value>حسنا</value>
+    <comment>Used for Message dialog.</comment>
+  </data>
+  <data name="Message_IncorrectPassword" xml:space="preserve">
+    <value>لم يتم تحديد كلمة المرور أو أنها غير صحيحة. الرجاء التأكد من عدم تشغيل كابس لوك عن طريق الخطأ وإعادة المحاولة.</value>
+    <comment>Used in Message dialog for incorrect password message.</comment>
+  </data>
+  <data name="Message_InvalidDestination" xml:space="preserve">
+    <value>تحتوي شجرة صفحة المستند على عقدة غير صالحة.</value>
+    <comment>Used in Message dialog for invalid destination message.</comment>
+  </data>
+  <data name="Message_MaximumPasswordAttemptsReached" xml:space="preserve">
+    <value>تم الوصول إلى الحد الأقصى لعدد محاولات كلمة المرور المسموح بها. لن يتم فتح ملف بدف.</value>
+    <comment>Used in Message dialog for maximum number of incorrect password attempts reached message.</comment>
+  </data>
+  <data name="Message_SearchCompleted" xml:space="preserve">
+    <value>اكتمل البحث. لم يتم العثور على مزيد من التطابقات.</value>
+    <comment>Used in Message dialog for search completed message.</comment>
+  </data>
+  <data name="PasswordDialog_Cancel" xml:space="preserve">
+    <value>إلغاء</value>
+    <comment>Used for Message dialog.</comment>
+  </data>
+  <data name="PasswordDialog_EnterPassword" xml:space="preserve">
+    <value>أدخل كلمة المرور:</value>
+    <comment>Used for Message dialog for enter password.</comment>
+  </data>
+  <data name="PasswordDialog_Message" xml:space="preserve">
+    <value>هذه الوثيقة محمية. الرجاء إدخال كلمة مرور فتح المستند</value>
+    <comment>Used in Password dialog for message.</comment>
+  </data>
+  <data name="PasswordDialog_OK" xml:space="preserve">
+    <value>حسنا</value>
+    <comment>Used in Password dialog.</comment>
+  </data>
+  <data name="PasswordDialog_Title" xml:space="preserve">
+    <value>كلمه السر</value>
+    <comment>Used in Password dialog for form title.</comment>
+  </data>
+  <data name="PrintDialog_Title" xml:space="preserve">
+    <value>طباعة</value>
+    <comment>Used in Print dialog for form title.</comment>
+  </data>
+  <data name="PrintDialog_FirstPage" xml:space="preserve">
+    <value>الصفحة الأولى</value>
+    <comment>Used for Print dialog for first page button.</comment>
+  </data>
+  <data name="PrintDialog_LastPage" xml:space="preserve">
+    <value>آخر صفحة</value>
+    <comment>Used for Print dialog for last page button.</comment>
+  </data>
+  <data name="PrintDialog_NextPage" xml:space="preserve">
+    <value>الصفحة التالية</value>
+    <comment>Used for Print dialog for next page button.</comment>
+  </data>
+  <data name="PrintDialog_PreviousPage" xml:space="preserve">
+    <value>الصفحة السابقة</value>
+    <comment>Used for Print dialog for previous page button.</comment>
+  </data>
+  <data name="SearchToolStrip_Close" xml:space="preserve">
+    <value>قريب</value>
+    <comment>Used for Search Tool strip close button tool tip text.</comment>
+  </data>
+  <data name="SearchToolStrip_MatchCase" xml:space="preserve">
+    <value>حساسية الموضوع</value>
+    <comment>Used for Search Tool strip search options dropdown match case text.</comment>
+  </data>
+  <data name="SearchToolStrip_MatchWholeWord" xml:space="preserve">
+    <value>كلمة كاملة فقط</value>
+    <comment>Used for Search Tool strip search options dropdown match whole word text.</comment>
+  </data>
+  <data name="SearchToolStrip_NextSearch" xml:space="preserve">
+    <value>بحث عن التالي</value>
+    <comment>Used for Search Tool strip next search button tool tip text.</comment>
+  </data>
+  <data name="SearchToolStrip_PreviousSearch" xml:space="preserve">
+    <value>البحث السابق</value>
+    <comment>Used for Search Tool strip previous search button tool tip text.</comment>
+  </data>
+  <data name="SearchToolStrip_SearchOptions" xml:space="preserve">
+    <value>خيارات البحث</value>
+    <comment>Used for Search Tool strip search options button tool tip text.</comment>
+  </data>
+  <data name="SearchProgress_Text" xml:space="preserve">
+    <value>البحث {0} من {1} الصفحات</value>
+    <comment>Used for search progress text. {0} represents progressing page number , {1} represents total pages.</comment>
+  </data>
+  <data name="PreviewLabel_Text" xml:space="preserve">
+    <value>من {0} ({1})</value>
+    <comment>Used for preview label text. {0} represents total pages ,{1} represents current or preview page number</comment>
+  </data>
+</root>

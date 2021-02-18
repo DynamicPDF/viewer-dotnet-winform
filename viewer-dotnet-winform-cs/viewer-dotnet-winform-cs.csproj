@@ -136,6 +136,8 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Resources\ceTe.DynamicPDF.Viewer.Localization.ar-SA.resx" />
+    <EmbeddedResource Include="Resources\ceTe.DynamicPDF.Viewer.Localization.en-US.resx" />
     <EmbeddedResource Include="SimplePdfViewer.resx">
       <DependentUpon>SimplePdfViewer.cs</DependentUpon>
     </EmbeddedResource>
